@@ -1,8 +1,6 @@
 {
     "functions": {
-        "cleanUrls": {
-            "enabled": false
-          },
+        "cleanUrls": {},
       "output": "functions"
     },
     "rewrites": [
