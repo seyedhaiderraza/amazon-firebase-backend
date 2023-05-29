@@ -1,13 +1,15 @@
-
 {
-  "functions": {
-    "cleanUrls": false,
-    "output": "functions"
-  },
-  "rewrites": [
-    { "source": "/api/(.*)", "function": "api/$1" }
-  ],
-  "routes": [
-    { "src": "/api/(.*)", "dest": "functions/index.js" }
-  ]
-}
+    "functions": {
+        "cleanUrls": {
+            "enabled": false
+          },
+      "output": "functions"
+    },
+    "rewrites": [
+      { "source": "/api/(.*)", "function": "api/$1" }
+    ],
+    "routes": [
+      { "src": "/api/(.*)", "dest": "functions/index.js" }
+    ]
+  }
+  
