@@ -2,10 +2,11 @@
     "functions": {
       "cleanUrls": {},
       "output": {
+        "directory": "functions"
       }
     },
     "rewrites": [
-      { "source": "/api/(.*)"}
+      { "source": "/api/(.*)", "destination": "/api/$1" }
     ],
     "routes": [
       { "src": "/api/(.*)", "dest": "functions/index.js" }
