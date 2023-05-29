@@ -2,7 +2,6 @@
     "functions": {
       "cleanUrls": {},
       "output": {
-        "directory": "functions"
       }
     },
     "rewrites": [
